@@ -424,6 +424,12 @@ a {
   width: 0;
   visibility: hidden;
 }
+.form input:checked ~ label {
+  width: calc(100% - 70px);
+}
+.form input:checked ~ span i {
+  transform: translateX(-80px) rotate(-360deg);
+}
 .form .btn {
   padding: 0 45px;
   margin-bottom: 30px;

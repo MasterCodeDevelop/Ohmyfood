@@ -111,7 +111,17 @@
         width: 0;
         visibility: hidden;
     }
-   
+    // Si vous ne voulez pas passer par "checked" remplace le par "hover"
+    input:checked {
+        & ~ label{
+            width: calc(100% - 70px);
+        }
+        & ~ span {
+            i {
+                transform: translateX(-80px) rotate(-360deg);
+            }
+        }  
+    }
     .btn {
         padding: 0 45px;
         margin-bottom: 30px;
