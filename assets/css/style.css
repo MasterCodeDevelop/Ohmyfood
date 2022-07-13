@@ -34,6 +34,34 @@ a {
   font-family: "Shrikhand", sans-serif;
 }
 
+/*====== FOOTER ======*/
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  background-color: #353535;
+  color: #fff;
+  padding: 32px 20px;
+  gap: 8px;
+}
+.footer__list a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  height: 20px;
+  gap: 10px;
+}
+.footer__list i {
+  width: 12px;
+}
+.footer__list i.fa-hands-helping {
+  font-size: 0.6rem;
+}
+.footer__logo {
+  height: 16px;
+  margin-bottom: 10px;
+}
+
 /*######################### PAGES #################################*/
 /*====== HOME ======*/
 .home {
@@ -126,7 +154,9 @@ a {
   display: flex;
   flex-direction: column;
   gap: 16px;
-} /*######################### COMPONENTS ############################*/
+}
+
+/*######################### COMPONENTS ############################*/
 /*====== BUTTONS ======*/
 .btn {
   display: flex;
