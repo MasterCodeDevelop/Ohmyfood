@@ -359,6 +359,20 @@ a {
   border: inherit;
   overflow: hidden;
   box-shadow: 0 0 16px 1px rgba(119, 119, 119, 0.3);
+  animation: menu-item 1s ease-out forwards;
+  opacity: 0;
+}
+.form__item:nth-child(1) {
+  animation-delay: 300ms;
+}
+.form__item:nth-child(2) {
+  animation-delay: 600ms;
+}
+.form__item:nth-child(3) {
+  animation-delay: 900ms;
+}
+.form__item:nth-child(4) {
+  animation-delay: 1200ms;
 }
 .form__label {
   position: relative;
@@ -415,6 +429,19 @@ a {
   margin-bottom: 30px;
 }
 
+@keyframes menu-item {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  90% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /*######################## MIXINS | SCREENS #####################*/
 /*====== DESKTOP ======*/
 @media screen and (min-width: 1024px) {
