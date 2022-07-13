@@ -63,6 +63,53 @@ a {
 .home .preview .section__title {
   padding: 0 36px;
 }
+.home .operating-steps {
+  background-color: #fff;
+}
+.home .operating-steps .section__title {
+  padding-left: 10px;
+}
+.home .operating-steps__list {
+  position: relative;
+}
+.home .operating-steps__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  padding: 0 32.5px;
+  background-color: #f6f6f6;
+  height: 70px;
+  border-radius: 15px;
+  box-shadow: 0 0 16px 0 rgba(65, 55, 55, 0.3);
+  margin-left: 10px;
+}
+.home .operating-steps__item i {
+  color: #7e7e7e;
+}
+.home .operating-steps__item:hover {
+  background-color: #f5edff;
+}
+.home .operating-steps__item:hover i {
+  color: #9356DC;
+}
+.home .operating-steps__number {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: white;
+  background-color: #9356DC;
+  width: 25px;
+  height: 25px;
+  left: -12.5px;
+  border-radius: 50%;
+}
+.home .operating-steps__text {
+  font-weight: 600;
+}
 
 /*====== SECTION ======*/
 .section {
@@ -107,6 +154,14 @@ a {
 }
 .btn-primary:hover {
   background: linear-gradient(-15deg, rgba(147, 86, 220, 0.8), rgba(255, 121, 218, 0.8));
+}
+
+/*######################## MIXINS | SCREENS #####################*/
+/*====== DESKTOP ======*/
+@media screen and (min-width: 1024px) {
+  .operating-steps .section__content {
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

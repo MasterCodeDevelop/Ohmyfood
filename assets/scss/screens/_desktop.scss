@@ -1,0 +1,8 @@
+/*====== DESKTOP ======*/
+@media screen and (min-width: $desktop-min-width) {
+    .operating-steps {
+        .section__content {
+            flex-direction: row;  
+        }
+    }
+}
