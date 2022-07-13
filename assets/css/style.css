@@ -83,6 +83,7 @@ a {
   flex-direction: column;
   /*** LOCATION ***/
   /*** PREVIEW ***/
+  /*** OPERATING-STEPS ***/
 }
 .home .location {
   display: flex;
@@ -167,6 +168,20 @@ a {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+/*====== MENU ======*/
+.menu {
+  /***BACKGROUND***/
+}
+.menu__background {
+  height: 255px;
+  width: 100%;
+}
+.menu__background img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 /*######################### COMPONENTS ############################*/
