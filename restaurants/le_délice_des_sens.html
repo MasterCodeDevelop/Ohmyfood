@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ohmyfood - Restaurant: Le délice des sens</title>
+    <meta name="description" content="Choisissez votre menu">
+    <link rel="icon" type="image/svg" href="../public/img/logo/ohmyfood@2x.svg" >
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/font/fontawesome--6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" >
+        <a href="../index.html" class="header__back">
+            <i class="fas fa-arrow-left fa-lg"></i>
+        </a>
+        <h1 class="header__title">
+            ohmyfood
+        </h1>
+    </header>
+
+    <!--==================== MENU ====================-->
+    <main class="menu">
+        
+        <!--==================== BACKGROUND ====================-->
+        <figure class="menu__background" >
+            <img 
+                src="../public/img/restaurants/le_délice_des_sens.jpg" 
+                alt="Le déilice des sens"
+            >    
+        </figure>
+
+        <!--==================== FORM ====================-->
+        <form class="form">
+
+            <h2 class="form__title">
+                Le délice des sens
+                <i class="like far fa-heart"></i>
+            </h2>
+
+            <!--==================== FORM GROUP ====================-->
+            <div class="form__group">
+                <h3 class="form__list__title">ENTRÉES</h3>
+                <ul class="form__list" >
+                    <li class="form__item" >
+                        <input id="starters-1" type="checkbox">
+                        <label class="form__label" for="starters-1">
+                            <span class="form__label__title">Tartare de thon</span>
+                            <span>
+                                Assaisonné au yuzu
+                                <strong>25€</strong>
+                            </span>
+                        </label>
+                        <span class="check-animated" ><i class="fas fa-check-circle"></i></span>
+                    </li>
+    
+                    <li class="form__item" >
+                        <input id="starters-2" type="checkbox">
+                        <label class="form__label" for="starters-2">
+                            <span class="form__label__title">Bouchée de homard croustillant</span>
+                            <span>
+                                Et sa farandole de petits légumes
+                                <strong>35€</strong>
+                            </span>
+           
+                        </label>
+                        <span class="check-animated" ><i class="fas fa-check-circle"></i></span>
+                    </li>
+                    <li class="form__item" >
+                        <input id="starters-3" type="checkbox">
+                        <label class="form__label" for="starters-3">
+                            <span class="form__label__title">Velouté de cèpes</span>
+                            <span>
+                                Aux truffes
+                                <strong>20€</strong>
+                            </span>
+                        </label>
+                        <span class="check-animated" ><i class="fas fa-check-circle"></i></span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--==================== FORM GROUP ====================-->
+            <div class="form__group">
+                <h3 class="form__list__title">PLATS</h3>
+                <ul class="form__list" >
+                    <li class="form__item" >
+                        <input id="plats-1" type="checkbox">
+                        <label class="form__label" for="plats-1">
+                            <span class="form__label__title">Poulet rôti aux herbes de provence</span>
+                            <span>
+                                Et sa crème de truffe 
+                                <strong>40€</strong>   
+                            </span>
+                        </label>
+                        <span class="check-animated" ><i class="fas fa-check-circle"></i></span>
+                    </li>
+
+                    <li class="form__item" >
+                        <input id="plats-2" type="checkbox">
+                        <label class="form__label" for="plats-2">
+                            <span class="form__label__title">Langouste rôtie</span>
+                            <span>
+                                Et ses légumes de saison
+                                <strong>35€</strong>
+                            </span>
+                        </label>
+                        <span class="check-animated" ><i class="fas fa-check-circle"></i></span>
+                    </li>
+                    <li class="form__item" >
+                        <input id="plats-3" type="checkbox">
+                        <label class="form__label" for="plats-3">
+                            <span class="form__label__title">Côte de boeuf agus</span>
+                            <span>
+                                Et sa purée de panais 
+                                <strong>44€</strong>
+                            </span>
+                        </label>
+                        <span class="check-animated" ><i class="fas fa-check-circle"></i></span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--==================== FORM GROUP ====================-->
+            <div class="form__group">
+                <h3 class="form__list__title">DESSERTS</h3>
+
+                <ul class="form__list" >
+                    <li class="form__item" >
+                        <input id="desserts-1" type="checkbox">
+                        <label class="form__label" for="desserts-1">
+                            <span class="form__label__title">Farandole de desserts</span>
+                            <span>
+                                Du chef
+                                <strong>18€</strong>
+                            </span>
+                        </label>
+                        <span class="check-animated" ><i class="fas fa-check-circle"></i></span>
+                    </li>
+
+                    <li class="form__item" >
+                        <input id="desserts-2" type="checkbox">
+                        <label class="form__label" for="desserts-2">
+                            <span class="form__label__title">Crème brulée</span>
+                            <span>
+                                Revisité
+                                <strong>22€</strong>
+                            </span>
+                        </label>
+                        <span class="check-animated" ><i class="fas fa-check-circle"></i></span>
+                    </li>
+                    <li class="form__item" >
+                        <input id="desserts-3" type="checkbox">
+                        <label class="form__label" for="desserts-3">
+                            <span class="form__label__title">Tiramisu</span>
+                            <span>
+                                À la noisette
+                                <strong>23€</strong>
+                            </span>
+                        </label>
+                        <span class="check-animated" ><i class="fas fa-check-circle"></i></span>
+                    </li>
+                </ul>
+            </div>
+
+            <input type="submit" class="btn btn-primary" value="Commander">
+        </form>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <nav class="footer__list">
+            <a href="#logo"><img src="../public/img/logo/ohmyfood@2x.svg" alt="logo" class="footer__logo" ></a>
+            <a href="#Proposer-un-restaurant"><i class="fas fa-utensils"></i> Proposer un restaurant</a>
+            <a href="#Devenir-partenaire"><i class="fas fa-hands-helping"></i>Devenir partenaire</a>
+            <a href="#mentions-légales">Mentions légales</a>
+            <a href="mailto:master.code.develop@gmail.com" >Contact</a>
+        </nav>
+    </footer>
+</body>
+</html>
