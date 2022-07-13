@@ -1,6 +1,9 @@
 /*====== DESKTOP ======*/
 @media screen and (min-width: $desktop-min-width) {
-    .operating-steps {
+    .card {
+        width: calc( (100vw / 4) - 25px ) !important;
+    }
+    .operating-steps , .restaurants {
         .section__content {
             flex-direction: row;  
         }
