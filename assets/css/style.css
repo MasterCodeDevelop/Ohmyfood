@@ -33,6 +33,19 @@ a {
 .header__title {
   font-family: "Shrikhand", sans-serif;
 }
+.header__back {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  left: 0;
+  width: 70px;
+  height: 100%;
+}
+.header__back i {
+  font-weight: 900;
+}
 
 /*====== FOOTER ======*/
 .footer__list {

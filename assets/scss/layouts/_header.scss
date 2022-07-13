@@ -11,4 +11,17 @@
     &__title {
         font-family: "Shrikhand",sans-serif;
     }
+    &__back {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        left: 0;
+        width: 70px;
+        height: 100%;
+        i {
+            font-weight: 900;
+        }
+    }
 }
